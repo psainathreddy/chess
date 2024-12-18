@@ -1,0 +1,543 @@
+* {
+    margin: 0px;
+
+}
+
+.main-container {
+    height: 800px;
+    /* border: 2px solid black; */
+    width: 800px;
+    /* background-color: black; */
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eight {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.first>.first-first {
+    border: 1px solid black;
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.first>.first-second {
+    border: 1px solid black;
+    width: 100px;
+    background-color: lightgreen;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.first>.first-third {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: white;
+    height: 100px;
+}
+
+.first>.first-fourth {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.first>.first-fifth {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: white;
+    height: 100px;
+}
+
+.first>.first-sixth {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.first>.first-seventh {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: white;
+    height: 100px;
+}
+
+.first>.first-eight {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.second>.second-first {
+    border: 1px solid black;
+    width: 100px;
+    background-color: lightgreen;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-second {
+    border: 1px solid black;
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-third {
+    border: 1px solid black;
+    width: 100px;
+    background-color: lightgreen;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-fourth {
+    border: 1px solid black;
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-fifth {
+    border: 1px solid black;
+    width: 100px;
+    background-color: lightgreen;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-sixth {
+    border: 1px solid black;
+    width: 100px;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-seventh {
+    border: 1px solid black;
+    width: 100px;
+    background-color: lightgreen;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.second>.second-eight {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: white;
+    height: 100px;
+}
+
+.third>.third-first {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.third>.third-second {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.third>.third-third {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.third>.third-fourth {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.third>.third-fifth {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.third>.third-sixth {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.third>.third-seventh {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.third>.third-eight {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-first {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-second {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-third {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-fourth {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-fifth {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-sixth {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-seventh {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fourth>.fourth-eight {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-first {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-second {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-third {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-fourth {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-fifth {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-sixth {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-seventh {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fifth>.fifth-eight {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-first {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-second {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-third {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-fourth {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-fifth {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-sixth {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-seventh {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.sixth>.sixth-eight {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-first {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 78px;
+}
+
+.seventh>.seventh-second {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-third {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-fourth {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-fifth {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-sixth {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-seventh {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.seventh>.seventh-eight {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.eight>.eight-first {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.eight>.eight-second {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.eight>.eight-third {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.eight>.eight-fourth {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.eight>.eight-fifth {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.eight>.eight-sixth {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.eight>.eight-seventh {
+    width: 100px;
+    text-align: center;
+    font-size: 78px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.eight>.eight-eight {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 78px;
+    background-color: white;
+    border: 1px solid black;
+}
